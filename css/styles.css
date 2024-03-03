@@ -1,0 +1,146 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  background-color: #16141d;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* reset */
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* styles */
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* .input-wrapper {
+  position: relative;
+}
+
+.label {
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.input {
+  background-color: transparent;
+  border: 2px solid teal;
+  width: 500px;
+  height: 50px;
+  color: inherit;
+  padding-left: 36px;
+
+  outline: none;
+}
+
+.input:focus {
+  border-color: tomato;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+
+  fill: teal;
+}
+
+.input:focus + .icon {
+  fill: tomato;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+}
+
+.custom-checkbox {
+  position: relative;
+  display: inline-block;
+  margin-right: 24px;
+  width: 40px;
+  height: 24px;
+
+  border: 1px solid teal;
+  border-radius: 12px;
+  transition: border-color 200ms linear;
+}
+
+.custom-checkbox::after {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  content: '';
+
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: teal;
+  transition: transform 200ms linear, background-color 200ms linear;
+}
+
+.checkbox:checked + .label .custom-checkbox {
+  border-color: tomato;
+}
+
+.checkbox:focus-visible + .label .custom-checkbox {
+  outline: 1px solid #fff;
+}
+
+.checkbox:checked + .label .custom-checkbox::after {
+  transform: translateX(16px);
+  background-color: tomato;
+} */
